@@ -57,7 +57,7 @@ colorscheme wombat
 
 set guioptions-=T                    " TODO
 set guioptions+=c                    " TODO Console messages
-set linespace=0             must happen first.)
+set linespace=0      
 " --------
 
 filetype off                    " Avoid a Vim/Pathogen bug
