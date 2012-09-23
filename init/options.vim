@@ -2,7 +2,7 @@ set guifont=Menlo:h18
 set guioptions-=T               " Remove GUI toolbar
 set guioptions-=e               " Use text tab bar, not GUI
 set guioptions-=rL              " Remove scrollbars
-set visualbell                  " Suppress audio/visual error bell
+set visualbell                 " Suppress audio/visual error bell
 set notimeout                   " No command timeout
 set showcmd                     " Show typed command prefixes while waiting for operator
 set mouse=a                     " Use mouse support in XTerm/iTerm.
@@ -21,7 +21,7 @@ set wildignore+=public/uploads/**  " ...Also uploads.
 set wildignore+=public/images/**   " ...Also images.
 set wildignore+=vendor/**          " ...Also vendor.
 
-set list                        " Show whitespace
+" set list                        " Show whitespace
 if has("gui_running")
   set listchars=trail:·
 else

@@ -91,8 +91,10 @@ map <leader>g   :Gblame<CR>
 
 " Comment/uncomment lines
 map <leader>/   <plug>NERDCommenterToggle
-map <D-/>       <plug>NERDCommenterToggle
-imap <D-/>      <Esc><plug>NERDCommenterToggle i
+map <leader>F1   <plug>NERDCommenterToggle
+map <C-/>       <plug>NERDCommenterToggle
+map <C-F1>       <plug>NERDCommenterToggle
+imap <C-/>      <Esc><plug>NERDCommenterToggle i
 
 " In command-line mode, <C-A> should go to the front of the line, as in bash.
 cmap <C-A> <C-B>
